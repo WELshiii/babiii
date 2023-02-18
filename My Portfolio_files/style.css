@@ -227,7 +227,7 @@ p{
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1{
+#hero h1, h6{
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -709,3 +709,20 @@ p{
 }
 }
 /*end od Media Query for Desktop*/
+
+.credits-text {
+	
+	text-indent: -240ch;
+	text-shadow: 120ch 0, 240ch 0;
+	animation: m 5s linear 9e7;
+	
+}
+
+@keyframes m {
+	to {
+		text-indent: -101ch;
+	}
+}
+
+
+
